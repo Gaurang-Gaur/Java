@@ -17,6 +17,7 @@ public class box {
    // creating all possible type of constructor
 
    box(){
+      super();// here is calling the top most class of java which is the object class
     this.l=-1;
     this.w=-1;
     this.h=-1;
@@ -57,11 +58,15 @@ public class box {
    return w;
 
   }
+
+//   boxweight box3=new boxweight(); // object creation required function to be created otherwise error will Cannot make a static reference to the non-static field box3
   public static void main(String []args){
 
    box o=new box(3,5,555);
 
    System.out.println(o.w);
+   boxweight box3=new boxweight();
+   System.out.println(box3.time +" "+ box3.l);
   }
   
 
