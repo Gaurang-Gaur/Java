@@ -1,6 +1,13 @@
+import inheritance.box;
 public class arr {
     
     public static void main(String args[]) {
+
+        box obj=new box(3,5,5);
+
+        System.out.println(obj.l);
+        System.out.println(obj.getH());
+
 
         // Scanner sc=new Scanner(System.in);
         int []a[]=new int[5][];// we can leave columns as variable 
