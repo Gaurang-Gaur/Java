@@ -1,6 +1,6 @@
 package interfacedfirst;
 
-public class car implements engine, media, brake {
+public  class car implements engine, media, brake {
 
     @Override
     public void brakePower(){
